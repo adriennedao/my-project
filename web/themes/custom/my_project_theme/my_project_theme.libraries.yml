@@ -1,7 +1,8 @@
 framework:
   css:
     theme:
-      css/style.css: {}
+         css/style.css: {}
+
   js:
     bootstrap/assets/javascripts/bootstrap/affix.js: {}
     bootstrap/assets/javascripts/bootstrap/alert.js: {}
@@ -15,3 +16,7 @@ framework:
     bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
     bootstrap/assets/javascripts/bootstrap/tab.js: {}
     bootstrap/assets/javascripts/bootstrap/transition.js: {}
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Prompt:400,300,200': { type: external, minified: true }
