@@ -6356,7 +6356,48 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
-/* ---Homepage--- */
+/* ----Homepage---- */
 /* Services */
+#block-services {
+  background-color: #173244;
+  color: #ffffff; }
+  #block-services h2 {
+    text-align: center;
+    list-item: none; }
+  #block-services p {
+    text-align: center; }
+  #block-services ul {
+    list-style-type: none;
+    display: block;
+    margin: 80px auto;
+    padding: 0; }
+
+.services-list {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .services-list {
+      float: left;
+      width: 83.3333333333%; } }
+  @media (min-width: 768px) {
+    .services-list {
+      margin-left: 8.3333333333%; } }
+  .services-list li {
+    width: 30%;
+    display: inline-block;
+    padding-top: 50px;
+    text-align: center; }
+    .services-list li:first-child {
+      margin-right: 4.3%; }
+    .services-list li:last-child {
+      margin-left: 4.3%; }
+    .services-list li .web-development {
+      background: url("../images/icon-computer.png") no-repeat center top; }
+    .services-list li .app-development {
+      background: url("../images/icon-mobile-device.png") no-repeat center top; }
+    .services-list li .seo-assistance {
+      background: url("../images/icon-magnifier.png") no-repeat center top; }
 
 /*# sourceMappingURL=style.css.map */
