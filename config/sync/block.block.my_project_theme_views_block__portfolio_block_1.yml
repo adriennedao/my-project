@@ -11,7 +11,7 @@ dependencies:
 id: my_project_theme_views_block__portfolio_block_1
 theme: my_project_theme
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: 'views_block:portfolio-block_1'
 settings:
