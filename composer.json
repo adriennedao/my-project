@@ -25,6 +25,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.4",
         "drupal/default_content": "^1.0@alpha",
+        "drupal/drupal8_custom_theme": "^1.4",
         "drupal/file_permissions": "^1.0",
         "drupal/pathauto": "^1.2",
         "drush/drush": "^9.0.0",
