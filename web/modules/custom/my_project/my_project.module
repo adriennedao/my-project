@@ -1,2 +1,10 @@
-<?php
+<?php 
+
+function my_project_preprocess(&$variables, $hook) {
+	$about_block = views_embed_view('about', 'page_1'); //load view
+	$variables['about_block'] = $about_block; // put it in twig variable
+
+	$projects_block = views_embed_view('projects', 'page_1');
+	$variables['projects_block'] = $projects_block;
+}
 
