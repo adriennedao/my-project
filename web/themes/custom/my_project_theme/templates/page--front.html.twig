@@ -57,13 +57,31 @@
 {# Main #}
 {% block main %}
 
-  
+  <div class="header-wrapper">
+  <div class="{{ container }}">
+      <div class="row">
+        <div class="col-xs-12">
+          {{ header_block }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="homepage-wrapper">
+  <div class="{{ container }}">
+      <div class="row">
+        <div class="col-xs-12">
+          {{ homepage_block }}
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="about-wrapper">
    <div class="{{ container }}">
     <div class="row">
       <div class="col-xs-12">
-        <h3>Adrienne Dao</h3>
-          {{ about_block }}
+          {{ about__block }}
       </div>
     </div>
   </div>
@@ -89,7 +107,6 @@
       </div>
     </div>
   </div>
-
 
 
   <div role="main" class="main-container {{ container }} js-quickedit-main-content">

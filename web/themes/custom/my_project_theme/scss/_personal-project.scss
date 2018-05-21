@@ -2,35 +2,274 @@
 /* ----Homepage---- */
 
 /*---About Section---*/
+
+#top-bar.header.row {
   
+}
+
+
+.logo-img {
+  width: 300px;
+}
+
+.small-12 {
+    width: 100%;
+}
+.top-bar-section {
+  position: relative;
+  padding-bottom: 0;
+  display: block;
+}
+
+.top-bar {
+    overflow: hidden;
+    height: 79px;
+    line-height: 79px;
+    position: relative;
+    margin-bottom: 0;
+}
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #005779;
+    text-align: center;
+    letter-spacing: 8px;
+  }
+
+  .block-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #005779;
+  }
 
   h3{
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: 400;
+    text-transform: uppercase;
+    height: 40px;
+    color: #005779;
   }
 
-  .about-wrapper {
-    background: url("../images/jpg") no-repeat center top;
+  h4 { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #005779;
+    text-align: center;
+
   }
+
+  h6 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #005779;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  .homepage {
+    list-style-type: none;
+    background: #eae9e6;
+    position: relative;
+    overflow: hidden;
+    height: 803px;
+    z-index: 0;
+    width: 568px;
+  }
+
+  .homepage h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+  }
+
+  .post-info {
+    background-color: #EFEFEF;
+    padding: 20px 30px;
+    margin: 30px 0 60px;
+  }
+
+ /* .row .row {
+    width: auto;
+    max-width: none;
+    margin: 0 -.46875rem;
+  }
+*/
+  .small-4.column.picture{
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+
+  .info.column.small-8 {
+    float: right;
+  }
+
+  .byline .author-name {
+    display: block;
+    font-weight: 800;
+  }
+
+  .byline img {
+    border-radius: 50%;
+  }
+
+  img {
+    display: inline-block;
+  }
+
+  .byline em {
+    color: #DB291D;
+  }
+
+  em {
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+  }
+
+  .byline .author-short {
+    margin: 16px 0;
+  }
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18;
+    line-height: 2;
+    margin-bottom: 1.25rem;
+    font-weight: 300;
+    display: block;
+
+  }
+
+.author-name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+
+}
+
+
+ /*  body {
+    background: #eae9e6;
+  }
+*/
+/*.homepage-menu  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .homepage-menu li {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; 
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-right: 45px;
+  }
+*/
+  .about-wrapper p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  #views_block__about__block_1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
   
   .about-wrapper p {
     font-size: 18px;
     color: grey;
+    font-family: 'Roboto', sans-serif;
   }
 
   ul {
     list-style-type: none;
   }
 
-  li {
-    font-size: 18px;
+  .about-dev {
+      img {
+        width: 33%;
+      }
   }
 
-  .projects-wrapper {
-    font-size: 20px;
+  .views-field views-field-body p {
+    font-size: 14px;
+    color: #005779;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 8px;
+  }
 
+  .field-content p {
+    color: #005779;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+  }
+
+  .field-content a {
+    color: #005779;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  .portfolio-wrapper li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+  }
+
+  .projects-wrapper li {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+  .col-sm-4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+    padding-top: 45px;
+    padding-bottom: 100px;
   }
 
   .footer container {
+    background: #243b55;
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;
   }
+
+  #block-addtoanybuttons {
+    height: 150px;
+    ont-size: 18px;
+    font-family: 'Roboto', sans-serif;
+  }
+  #block-addtoanybuttons {
+    margin: center;
+  }
+  
