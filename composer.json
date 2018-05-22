@@ -27,7 +27,9 @@
         "drupal/default_content": "^1.0@alpha",
         "drupal/drupal8_custom_theme": "^1.4",
         "drupal/file_permissions": "^1.0",
+        "drupal/fontawesome": "^2.2",
         "drupal/pathauto": "^1.2",
+        "drupal/responsive_menu": "^2.6",
         "drush/drush": "^9.0.0",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
