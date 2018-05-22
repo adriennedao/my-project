@@ -19,4 +19,4 @@ framework:
 fonts:
   css:
     theme:
-      '//fonts.googleapis.com/css?family=Prompt:400,300,200': { type: external, minified: true }
+      '//fonts.googleapis.com/css?family=Roboto:400,300,200': { type: external, minified: true }
