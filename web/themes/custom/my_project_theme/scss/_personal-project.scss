@@ -5,10 +5,16 @@
 .small-12 {
     width: 100%;
 }
+
 .top-bar-section {
   position: relative;
   padding-bottom: 0;
   display: block;
+}
+
+.block-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
 
 .top-bar {
@@ -49,13 +55,16 @@
   padding-top: 8px;
   padding-left: 50px;
 }
-  
-  h2 {
+
+  .icon {
+    color: gray;
+  }
+
+
+  .lable span {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    letter-spacing: 8px;
+    color: #ffffff;
   }
 
   h3{
@@ -179,7 +188,7 @@
   }
 
   .byline img {
-    border-radius: 50%;
+    border-radius: 50%
   }
 
   img {
@@ -201,12 +210,12 @@
   }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18;
-    line-height: 2;
-    margin-bottom: 1.25rem;
-    font-weight: 300;
-    display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18;
+  line-height: 2;
+  margin-bottom: 1.25rem;
+  ont-weight: 300;
+  display: block;
 
   }
 
@@ -215,7 +224,6 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   letter-spacing: 3px;
-
 }
 
   .about-wrapper p {
@@ -282,7 +290,6 @@ p {
   .projects-wrapper li {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-
   }
 
   .col-sm-4 {
@@ -304,7 +311,7 @@ p {
 
   #block-addtoanybuttons {
     height: 150px;
-    ont-size: 18px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
   }
   
