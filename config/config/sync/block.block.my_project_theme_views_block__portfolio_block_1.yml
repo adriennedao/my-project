@@ -1,0 +1,24 @@
+uuid: 8632e5c2-f76d-4fc5-be41-a5d0122d33c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.portfolio
+  module:
+    - views
+  theme:
+    - my_project_theme
+id: my_project_theme_views_block__portfolio_block_1
+theme: my_project_theme
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:portfolio-block_1'
+settings:
+  id: 'views_block:portfolio-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
