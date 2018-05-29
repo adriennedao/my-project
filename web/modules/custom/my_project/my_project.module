@@ -1,13 +1,13 @@
 <?php 
 
 function my_project_preprocess(&$variables, $hook) {
-	$about__block = views_embed_view('about_', 'block_1'); //load view
-	$variables['about__block'] = $about__block; // put it in twig variable
+	$about_block = views_embed_view('about', 'about_block'); //load view
+	$variables['about_block'] = $about_block; // put it in twig variable
 
 	$header_block = views_embed_view('header', 'block_1');
 	$variables['header_block'] = $header_block;
 
-	$homepage_block = views_embed_view('homepage', 'page_1');
+	$homepage_block = views_embed_view('homepage', 'block_1');
 	$variables['homepage_block'] = $homepage_block;
 
 	$projects_block = views_embed_view('projects', 'page_1');
@@ -15,6 +15,5 @@ function my_project_preprocess(&$variables, $hook) {
 
 	$portfolio_block = views_embed_view('portofio', 'block_1');
 	$variables['portfolio_block'] = $portfolio_block;
-
 	
 }

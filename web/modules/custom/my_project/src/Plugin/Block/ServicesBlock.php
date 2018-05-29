@@ -19,7 +19,7 @@ class ServicesBlock extends BlockBase {
    */
   public function build() {
     $build = [];
-    $build['services_block']['#markup'] = 'Implement ServicesBlock.';
+    $build['services_block']['#markup'] = 'Services.';
 
     return $build;
   }
