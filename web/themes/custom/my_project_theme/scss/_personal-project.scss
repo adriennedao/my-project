@@ -82,6 +82,7 @@
     font-size: 18px;
 }
 */
+
 .small-12 {
     width: 100%;
 }
@@ -262,6 +263,10 @@ body {
 }
 
 #block-about-block {
+  background: url("../images/background_pic.png") no-repeat center top;
+}
+
+#block-about-block {
   padding-top: 200px;
 }
 
@@ -395,7 +400,7 @@ p {
   font-size: 18px;
 }
 
-#block-about-block li {
+#block-about-block h1 {
     color: #2e3032;
     font-family: Velino,Times New Roman,serif;
     font-style: italic;
