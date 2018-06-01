@@ -19,7 +19,7 @@ class projects extends BlockBase {
    */
   public function build() {
     $build = [];
-    $build['projects']['#markup'] = 'projects.';
+    $build['projects']['#markup'] = 'Projects.';
 
     return $build;
   }

@@ -19,7 +19,7 @@ class about_block extends BlockBase {
    */
   public function build() {
     $build = [];
-    $build['about_block']['#markup'] = 'block.';
+    $build['about_block']['#markup'] = 'About.';
 
     return $build;
   }
