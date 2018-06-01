@@ -6410,23 +6410,6 @@ p:last-child,
 #block-header-2 {
   padding-top: 200px; }
 
-/*#about {
-    background: white;
-    color: #2e3032;
-    padding: 0;
-    margin: 0;
-    font-family: "Open Sans",sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.5;
-    position: relative;
-    cursor: default;
-}
-
-#about {
-    font-size: 18px;
-}
-*/
 .small-12 {
   width: 100%; }
 
@@ -6521,28 +6504,6 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 5px; }
 
- /* .responsive-menu-toggle-icon span.label {
-    display: block;
-    position: absolute;
-    font-size: 17px;
-    text-transform: uppercase;
-    top: 2px;
-    left: 40px;
-  }
-  .icon {
-    text-decoration: none;
-  }
-
-.responsive-menu-toggle-icon {
-  box-sizing: border-box;
-  display: block;
-  width: 44px;
-  height: 35px;
-  z-index: 4;
-  margin-top: 0;
-  position: relative;
-}
-*/
 a {
   background-color: transparent; }
 
@@ -6582,25 +6543,13 @@ body {
   height: 703px;
   width: 568px; }
 
-#block-about-block {
-  background: url("../images/background_pic.png") no-repeat center top; }
-
-#block-about-block {
-  padding-top: 200px; }
-
 #block-views-block-homepage-block_1 {
   height: 750px;
   padding-top: 50px;
   padding-bottom: 50px; }
 
-#block-about-block p {
-  color: #2e3032;
-  font-family: Velino,Times New Roman,serif;
-  font-style: italic;
-  font-size: 5rem;
-  text-align: center;
-  line-height: 6.25rem;
-  margin-bottom: 30px; }
+#block-views-block-portfolio-block-1 {
+  padding-top: 200px; }
 
 #heading h1 {
   background-color: #e5e5e5;
@@ -6630,7 +6579,7 @@ body {
   margin: 0px; }
 
 #homepage-byline-header {
-  padding-top: 300px; }
+  padding-top: 400px; }
 
 .homepage h1 {
   font-family: 'Roboto', sans-serif;
@@ -6691,24 +6640,6 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   letter-spacing: 3px; }
-
-.about-wrapper p {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  font-weight: 400;
-  font-size: 18px; }
-
-#block-about-block h1 {
-  color: #2e3032;
-  font-family: Velino,Times New Roman,serif;
-  font-style: italic;
-  font-size: 5rem;
-  text-align: center;
-  line-height: 6.25rem;
-  margin-bottom: 30px; }
-
-#block-views-block-portfolio-block-1 {
-  padding-top: 100px; }
 
 ul {
   list-style-type: none; }

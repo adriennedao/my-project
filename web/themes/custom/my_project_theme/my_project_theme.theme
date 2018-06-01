@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+function my_project_theme_preprocess(&$variables, $hook) {
+	$variables['my_project_theme_year'] = date('Y');
+	$variables['my_project_theme_site_name'] = \Drupal::config('system.site')->get('name');
+}
