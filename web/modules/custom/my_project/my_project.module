@@ -1,7 +1,6 @@
 <?php 
 
 function my_project_preprocess(&$variables, $hook) {
-	
 	$header_block = views_embed_view('header', 'block_1');
 	$variables['header_block'] = $header_block;
 
