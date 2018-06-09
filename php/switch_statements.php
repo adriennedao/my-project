@@ -3,6 +3,7 @@
 print '<h1>My PHP File</h1>';
 print '<br><br>';
 
+
 $number = 100;
 
 switch($number){

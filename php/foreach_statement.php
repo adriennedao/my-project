@@ -6,9 +6,9 @@ print '<br><br>';
 
 $numbers = array(345, 347, 676, 385, 2657, 5784);
 
-
 foreach($numbers as $number){
 
 echo $number . "<br>";
+
 
 }
