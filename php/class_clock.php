@@ -17,10 +17,14 @@ class Clock {
 
 		$output = 2+3;	
 
-		//$startTime = new Date();
+		$today = date("F j, Y, g:i a") . "<br>"; 
+		$this->timepeace = 'silver';
+
+		//$start = new Date();
 		//$startkv->format('g');
 
 		echo $output . "<br>";
+		echo $today;
 
  	}	
 
@@ -35,6 +39,7 @@ class Clock {
 $seiko = new Clock();
 $seiko->countChimes('06:00', '13:00');
 $seiko->CreateWatch();
+
 
 echo $seiko->CreateWatch();
 
