@@ -30,7 +30,7 @@ class Clock {
 
  	function CreateWatch(){
 
- 		$this->watchColor = 'leather';
+ 		$this->watchColor = 10;
 
  	}
 
@@ -39,7 +39,6 @@ class Clock {
 $seiko = new Clock();
 $seiko->countChimes('06:00', '13:00');
 $seiko->CreateWatch();
-
 
 echo $seiko->CreateWatch();
 
@@ -55,5 +54,35 @@ if(method_exists("Clock", "countChimes")) {
 	echo "no it does not";
 }
 
+print "<br>";
+
+// created class inheritance from entends Clock class
+
+class Bracelet extends Clock {
+
+	var $brand = 'seiko';
+	var $watchColor = 'diamond'; 
+
+}
+
+$jewelry = new Bracelet();
+$brand	 = new Bracelet();
+
+echo $jewelry->brand . "<br>";
+echo $brand->timepeace . "<br>";
+
+// created static class  
+
+	static $watchColor = 'silver';
+	//var $brand = 'classic';
+
+	function MakeJewelry() {
+
+		Clock::$watchColor = 'diamond';
+	}
 
 
+$guci = new Clock();
+
+Clock::MakeJewelry();
+echo Clock::$watchColor;
