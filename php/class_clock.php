@@ -71,18 +71,18 @@ $brand	 = new Bracelet();
 echo $jewelry->brand . "<br>";
 echo $brand->timepeace . "<br>";
 
+
 // created static class  
 
-	static $watchColor = 'silver';
+	static $timepeace = 'gold';
 	//var $brand = 'classic';
 
-	function MakeJewelry() {
+	function MadeNewWatch() {
 
-		Clock::$watchColor = 'diamond';
+		Clock::$timepeace = 'diamond';
 	}
-
 
 $guci = new Clock();
 
-Clock::MakeJewelry();
-echo Clock::$watchColor;
+Clock::MadeNewWatch();
+echo Clock::$timepeace;
