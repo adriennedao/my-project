@@ -10,6 +10,15 @@ function my_project_preprocess(&$variables, $hook) {
 	$portfolio_block = views_embed_view('portofio', 'block_1');
 	$variables['portfolio_block'] = $portfolio_block;
 
+	$skills_block = views_embed_view('services', 'block_1');
+	$variables['services_block'] = $services_block;
+
+	$blog_block = views_embed_view('blog_post', 'block_1');
+	$variables['blog_post'] = $blog_post;
+
+	$contact_block = views_embed_view('contact_block', 'block_1');
+	$variables['contact_block'] = $contact_block;
+
 	$projects_block = views_embed_view('projects', 'page_1');
 	$variables['projects_block'] = $projects_block;	
 	
