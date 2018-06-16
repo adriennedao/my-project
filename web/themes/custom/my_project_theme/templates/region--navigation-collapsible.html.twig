@@ -1,0 +1,40 @@
+{#
+/**
+ * @file
+ * Theme override to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region div.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @ingroup templates
+ *
+ * @see template_preprocess_region()
+ */
+#}
+{%
+  set classes = [
+    'region',
+    'region-' ~ region|clean_class,
+  ]
+%}
+
+
+<div{{ attributes.addClass(classes) }}>
+  <div class="header-containter"> 
+  	<div class="row">
+  		<div class="nav-top-bar col-lg-12">
+  	  	  <header>
+           <a href="https://adriennedao.github.io/" class="col-lg-2 b-logo">
+              "Adrienne Dao"
+           </a>
+          </header>
+       </div> 
+   </div>
+</div>
+
+    {{ content }}
+</div>
+
