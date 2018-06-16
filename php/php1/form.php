@@ -1,5 +1,9 @@
 <?php
 
+print '<h1>My PHP File</h1>';
+print '<br><br>';
+
+
 if(isset ($_POST['submit'])) {
 
 	$name = array("Edwin", "Student", "adrienne", "jonh", "jeff", "james", "maria");

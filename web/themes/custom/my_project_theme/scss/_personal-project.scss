@@ -2,7 +2,7 @@
 /* ------Homepage-----*/
 
 .navbar-default {
-  background-color: #434343;
+  background-color: #243b55;
   color: #ffffff;
   font-size: 12px;
   height: 150px;
@@ -51,7 +51,8 @@
   border: 1px solid #cccccc;
   z-index: 1000;
   cursor: pointer;
-  position: absolute;  
+  position: absolute;
+  background-color: #bd3f32;  
 }
 
 .intro {
@@ -71,6 +72,7 @@
 
 #block-header-2{
   padding-top: 200px;
+  color: #666;
 }
 
 .small-12 {
@@ -101,7 +103,7 @@
 }
 
 #my-menu {
-  background-color: #4286f4;
+  background-color: #5b86e5;
   padding-bottom: 25px; 
   height: 130px;
   padding-top: 25px;
@@ -204,9 +206,21 @@ body {
   position: absolute;
   font-size: 17px;
   text-transform: uppercase;
-  top: 2px;
+  top: 5px;
   left: 40px;
 
+}
+
+.mm-navbar__title {
+  font-size: 24px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #ffffff;
+}
+.mm-listitem {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #ffffff;
 }
 
 #redbox {
@@ -409,6 +423,7 @@ ul {
   background: #243b55;
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
 #block-addtoanybuttons {
