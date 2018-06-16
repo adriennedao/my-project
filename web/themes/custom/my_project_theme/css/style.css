@@ -6646,6 +6646,16 @@ em {
 .byline .author-short {
   margin: 16px 0; }
 
+#somestyle p {
+  text-align: center;
+  font-family: Velino,Times New Roman,serif;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  padding-top: 5px;
+  text-transform: uppercase; }
+
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 18;
