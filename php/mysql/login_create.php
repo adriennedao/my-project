@@ -23,7 +23,7 @@ $connection = mysqli_connect("localhost", "root", "", "loginapp");
 
 	mysqli_query($connection, $query);
 
-	$result = mysql_query($connection, $query);
+	$result = mysqli_query($connection, $query);
 
 		if(!$result) {
 

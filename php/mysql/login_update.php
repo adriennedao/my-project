@@ -4,23 +4,9 @@
 <?php
 if(isset($_POST['submit'])) {
 
-$username = $_POST['username'];
-$password = $_POST['password'];
-$id = $_POST['id'];
-
-$query = "UPDATE users SET ";
-$query .= "username = '$username', ";
-$query .= "password = '$password' ";
-$query .= "WHERE id = $id ";
-
-	$result = mysqli_query($connection, $query);
-	if(!$result) {
-
-		die("QUERY FAILED" . mysql_error($connection));
-	}
+UpdateTable();
 
 }
-
 ?>
 
 <!DOCTYPE html>
