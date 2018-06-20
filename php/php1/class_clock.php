@@ -5,30 +5,42 @@ print '<br><br>';
 
 class Clock {
 
-	var $startTime = '2:00'; 
-	var $endTime   = '3:00';
-	var $output    =  5;
+	var $startTime = '2:00pm';
+	var $endTime   = '3:00pm';
+	var $output    = 5;
 	var $timepeace = 'gold';
 	var $brand     = 'classic';
 	var $watchColor= 'silver';
 
+
 	function countChimes($startTime, $endTime){
 
-		$startTime + $endTime =$ouput;
+		$output = 2+3;	
 
-		echo $ouput;
+		$today = date("F j, Y, g:i a") . "<br>"; 
+		$this->timepeace = 'silver';
+
+		//$start = new Date();
+		//$startkv->format('g');
+
+		echo $output . "<br>";
+		echo $today;
 
  	}	
 
  	function CreateWatch(){
 
- 		$this->watchColor = 'leather';
+ 		$this->watchColor = 10;
 
  	}
 
  }
 
 $seiko = new Clock();
+$seiko->countChimes('06:00', '13:00');
+$seiko->CreateWatch();
+
+echo $seiko->CreateWatch();
 
 
 // check if the method works 
@@ -42,5 +54,35 @@ if(method_exists("Clock", "countChimes")) {
 	echo "no it does not";
 }
 
+print "<br>";
+
+// created class inheritance from entends Clock class
+
+class Bracelet extends Clock {
+
+	var $brand = 'seiko';
+	var $watchColor = 'diamond'; 
+
+}
+
+$jewelry = new Bracelet();
+$brand	 = new Bracelet();
+
+echo $jewelry->brand . "<br>";
+echo $brand->timepeace . "<br>";
 
 
+// created static class  
+
+	static $timepeace = 'gold';
+	//var $brand = 'classic';
+
+	function MadeNewWatch() {
+
+		Clock::$timepeace = 'diamond';
+	}
+
+$guci = new Clock();
+
+Clock::MadeNewWatch();
+echo Clock::$timepeace;
