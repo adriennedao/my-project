@@ -1,49 +1,8 @@
-<?php 
-
-if(isset($_POST['submit'])) {
-
-$username = $_POST['username'];
-$password = $_POST['password'];
-
-$connection = mysqli_connect("localhost", "root", "", "loginapp");
-
-	if($connection) {
-
-		echo "We are connected";
-
-	} else {
-
-		die("Database connection failed");
-
-	}
-
-	$query = "INSERT INTO users(username, password) ";
-
-	$query .= "VALUES ('$username', '$password')";
-
-	mysqli_query($connection, $query);
-
-	$result = mysqli_query($connection, $query);
-
-		if(!$result) {
-
-			die('Query FAILED' . mysql_error());
-		}
-
- }
-	//if($username && $password) {
-
-	//echo $username;
-	//echo $password;
-
-
-	//} else {
-
-	//	echo "This field cannot be blanked";
-//	}
-// }
-
-?>
+<?php include "db.php";?>
+<?php include "functions.php" ?>
+<?php createRows(); ?>
+	
+	
 
 <!DOCTYPE html>
 <html lang="en">
@@ -56,9 +15,19 @@ $connection = mysqli_connect("localhost", "root", "", "loginapp");
 	<div class="container">
 
 		<div class="col-sm-6">
-			
-		</div>
+			<h1 class="text-center">Create</h1>
+			<form action="login_delete.php" method="post">
+				<div class="form-group">
+					<label for="username">Username</label>
+					<input type="text" name="username" class="form-control">
+				</div>
 
+		<div class="form-group">
+			<label for="password">Password</label>
+				<input type="password" name="password" class="form-control"></div>
+				<input class="btn btn-primary" type="submit" name="submit" value="CREATE">
+			</form>
+		</div>
 
 </body>
 </html>
