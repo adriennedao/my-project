@@ -19,7 +19,7 @@ class TemplateProgrammedBy extends BlockBase {
    */
   public function build() {
     $build = [];
-    $build['template_programmed_by']['#markup'] = 'Implement TemplateProgrammedBy.';
+    $build['template_programmed_by']['#markup'] = '<p class="love">Made with <i class="icon ion-heart"></i>Adrienne Dao</p>';
 
     return $build;
   }
