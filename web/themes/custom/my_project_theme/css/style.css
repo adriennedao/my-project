@@ -6358,11 +6358,15 @@ p:last-child,
 
 /* ------Homepage-----*/
 .navbar-default {
-  background-color: #0072ff;
+  background-color: #141E30;
   color: #ffffff;
   font-size: 12px;
-  height: 150px;
+  height: 75px;
   text-transform: uppercase; }
+
+.nav-top-bar-col-lg-12 {
+  display: inblock;
+  color: #ffffff; }
 
 .navbar-default .navbar-nav > li > a {
   color: #ffffff; }
@@ -6370,16 +6374,11 @@ p:last-child,
 .navbar-default .navbar-nav > li > a:hover {
   color: #ffffff; }
 
-.block-title {
-  font-family: 'Roboto',sans-serif;
-  font-size: 18px; }
-
 .img-responsive {
   display: inline;
   max-width: 100%;
   height: auto; }
 
-.field--item
 .about {
   font-family: 'Roboto', sans-serif;
   font-size: 18px; }
@@ -6420,6 +6419,12 @@ p:last-child,
 
 .small-12 {
   width: 100%; }
+
+.col-sm-4 p {
+  font-family: Velino,Times New Roman,serif;
+  font-size: 14px;
+  color: #243b55;
+  text-align: center; }
 
 .top-bar-section {
   position: relative;
@@ -6656,7 +6661,7 @@ em {
   padding-top: 5px;
   text-transform: uppercase; }
 
-p {
+.byline p {
   font-family: 'Roboto', sans-serif;
   font-size: 18;
   line-height: 2;
