@@ -3,15 +3,17 @@
 
 function createRows() {
 
-if(isset($_POST['submit'])) {
-global $connection;
-$username = $_POST['username'];
-$password = $_POST['password'];
+	if(isset($_POST['submit'])) {
+	global $connection;
+
+	$username = $_POST['username'];
+	$password = $_POST['password'];
 
 	$query = "INSERT INTO users(username, password) ";
 	$query .= "VALUES ('$username', '$password')";
 
 	$result = mysqli_query($connection, $query);
+
 		if(!$result) {
 			die('Query FAILED' . mysqli_error());
 
@@ -19,9 +21,26 @@ $password = $_POST['password'];
 
 		echo "Record create";
 
- 	}
+ 		}
 	
- }
+ 	}
+
+}
+
+function readRows() {
+	global $connection;
+	$query = "SELECT * FROM users";
+	$result = mysqli_query($connection, $query);
+		if(!$result) {
+			die('Query FAILED' . mysqli_error());
+	}
+
+while($row = mysqli_fetch_assoc($result)) {
+
+	print_r($row);
+
+	}
+
 }
 
 function showAllData() {
@@ -61,7 +80,7 @@ $query .= "WHERE id = $id ";
 }
 
 
-function deleteRows(){
+function deleteRows() {
 global $connection;
 $username = $_POST['username'];
 $password = $_POST['password'];

@@ -1,28 +1,17 @@
 <?php include "db.php";?>
 <?php include "functions.php";?>
 
-<?php
-if(isset($_POST['submit'])) {
+<?php UpdateTable();?>
 
-UpdateTable();
+<?php include "includes/header.php" ?>
 
-}
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-<body>
 
 	<div class="container">
 	
 		<div class="col-sm-6">
+			<h1 class="text-center">Update</h1>
 
-
-		<form action="login_create.php" method="post">
+		<form action="login_update.php" method="post">
 				<div class="form-group">
 					<label for="username">Username</label>
 					<input type="text" name="username" class="form-control">
@@ -49,6 +38,4 @@ UpdateTable();
 			</form>
 		</div>
 
-</body>
-</html>
-
+<?php include "includes/footer.php"?>

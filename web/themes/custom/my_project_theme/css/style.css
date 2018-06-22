@@ -6432,7 +6432,7 @@ p:last-child,
 
 .block-title {
   font-family: Velino,Times New Roman,serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #2e3032;
   text-align: center;
   text-transform: uppercase;
@@ -6492,7 +6492,7 @@ p:last-child,
   text-align: center; }
 
 h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: Velino,Times New Roman,serif;
   font-size: 25px;
   font-weight: 400;
   text-transform: uppercase;
@@ -6500,7 +6500,7 @@ h3 {
   color: #005779; }
 
 h4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: Velino,Times New Roman,serif;
   font-size: 18px;
   font-weight: 200;
   text-transform: uppercase;
@@ -6645,7 +6645,7 @@ img {
 em {
   font-style: italic;
   font-family: Velino,Times New Roman,serif;
-  font-size: 20px; }
+  font-size: 22px; }
 
 .byline .author-short {
   margin: 16px 0; }
@@ -6701,7 +6701,7 @@ ul {
 
 .portfolio-wrapper li {
   font-family: Velino,Times New Roman,serif;
-  font-size: 18px;
+  font-size: 14px;
   display: flex;
   justify-content: space-between;
   display: inline-block; }
@@ -6713,6 +6713,7 @@ ul {
 .col-sm-4 {
   font-family: Velino,Times New Roman,serif;
   font-size: 16px;
+  color: #DB291D;
   display: flex;
   justify-content: space-between;
   display: inline-block;
@@ -6733,7 +6734,7 @@ ul {
   height: 150px;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
-  display: inline-block; }
+  display: block; }
 
 .footer.container-fluid {
   background-color: #182848;
