@@ -19,7 +19,5 @@ function my_project_preprocess(&$variables, $hook) {
 	$contact_block = views_embed_view('contact_block', 'block_1');
 	$variables['contact_block'] = $contact_block;
 
-	$projects_block = views_embed_view('projects', 'page_1');
-	$variables['projects_block'] = $projects_block;	
 	
 }
